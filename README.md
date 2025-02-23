@@ -54,8 +54,7 @@ Dependable Auction...
 
 To ensure the dependability of the auctioning system, you are required to enhance the
 availability of your system by using replication techniques. You should implement a passive
-replication system to meet these requirements, thereby increasing dependability. Please refer
-to the lectures for the definition of passive replication.
+replication system to meet these requirements, thereby increasing dependability.
 The server implementation should have at least three replicas and allow the user to easily add a
 new replica. You must design your server program so that any replica can function as the primary
 replica. The clients will communicate with a stateless front-end program which should then
